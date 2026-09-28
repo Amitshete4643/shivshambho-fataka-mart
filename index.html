@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>शिवशंभो फटाका मार्ट | Shivshambho Fataka Mart</title>
+<meta name="description" content="Shivshambho Fataka Mart, Shikrapur - Talegaon Road. Quality Fireworks at Best Prices.">
+<style>
+:root{--gold:#ffd21a;--orange:#ff7b00;--red:#e51b23;--black:#050505;--card:#151515}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:#050505;color:#fff;line-height:1.6}
+a{text-decoration:none;color:inherit}
+nav{position:fixed;top:0;left:0;width:100%;z-index:99;background:rgba(0,0,0,.9);backdrop-filter:blur(10px);border-bottom:1px solid rgba(255,210,26,.3)}
+.nav{max-width:1180px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:10px;font-weight:900;color:var(--gold);font-size:19px}
+.brand img{width:43px;height:43px;object-fit:cover;border-radius:50%;border:2px solid var(--gold)}
+.links{display:flex;gap:25px;font-weight:700;font-size:14px}
+.links a:hover{color:var(--gold)}
+.hero{min-height:100vh;padding:125px 20px 70px;display:flex;align-items:center;justify-content:center;text-align:center;position:relative;overflow:hidden;background:radial-gradient(circle at 50% 35%,#3b1700 0%,#100800 35%,#000 72%)}
+.hero:before,.hero:after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;border:2px solid rgba(255,210,26,.4);box-shadow:0 0 35px rgba(255,120,0,.25);animation:pulse 3s infinite}
+.hero:before{left:-120px;top:25%}.hero:after{right:-120px;top:18%;animation-delay:1.2s}
+@keyframes pulse{50%{transform:scale(1.25);opacity:.35}}
+.hero-inner{position:relative;z-index:2;max-width:850px}
+.logo{width:min(310px,70vw);aspect-ratio:1;object-fit:cover;border-radius:50%;border:5px solid var(--gold);box-shadow:0 0 45px rgba(255,190,0,.35);margin-bottom:22px}
+.badge{display:inline-block;color:var(--gold);border:1px solid rgba(255,210,26,.5);padding:7px 16px;border-radius:30px;margin-bottom:18px;background:rgba(255,210,26,.06)}
+h1{font-size:clamp(35px,7vw,72px);line-height:1.05;margin-bottom:12px;background:linear-gradient(90deg,#fff,var(--gold),#ff6a00);-webkit-background-clip:text;color:transparent}
+.hero h2{font-size:clamp(20px,3vw,31px);margin-bottom:12px}
+.hero p{color:#ddd;font-size:17px;max-width:700px;margin:0 auto 25px}
+.btn{display:inline-block;padding:13px 23px;border-radius:30px;margin:5px;font-weight:800;transition:.25s}
+.btn:hover{transform:translateY(-3px)}
+.primary{background:linear-gradient(90deg,var(--red),var(--orange));box-shadow:0 8px 25px rgba(255,90,0,.25)}
+.outline{border:1px solid var(--gold);color:var(--gold)}
+section{padding:78px 20px}
+.container{max-width:1180px;margin:auto}
+.title{text-align:center;margin-bottom:40px}
+.title h2{font-size:38px;color:var(--gold)}
+.title p{color:#aaa}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.card{background:linear-gradient(145deg,#191919,#0d0d0d);border:1px solid rgba(255,210,26,.18);border-radius:18px;padding:27px;text-align:center;transition:.3s}
+.card:hover{transform:translateY(-7px);border-color:var(--gold);box-shadow:0 15px 40px rgba(0,0,0,.5)}
+.icon{font-size:48px;margin-bottom:10px}.card h3{margin-bottom:7px;color:#fff}.card p{color:#aaa;font-size:14px}
+.about{background:linear-gradient(180deg,#080808,#171000)}
+.aboutbox{display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center}
+.aboutbox h2{font-size:38px;color:var(--gold);margin-bottom:15px}
+.aboutbox p{color:#ccc;margin-bottom:12px}
+.points{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}
+.point{padding:13px;border-radius:12px;background:#111;border:1px solid #292929}
+.contact{background:radial-gradient(circle at center,rgba(255,122,0,.15),transparent 48%)}
+.contactgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.contactbox{background:#111;border-radius:17px;padding:25px;text-align:center;border:1px solid rgba(255,210,26,.2)}
+.big{font-size:34px}.contactbox h3{color:var(--gold);margin:5px}.address{font-size:15px;color:#ddd}
+.map{margin-top:28px;border:1px solid rgba(255,210,26,.2);border-radius:16px;padding:22px;text-align:center;background:#101010}
+footer{padding:28px 20px;text-align:center;color:#999;border-top:1px solid #222}
+.whatsapp{position:fixed;right:18px;bottom:18px;z-index:100;background:#25d366;color:white;padding:13px 19px;border-radius:40px;font-weight:900;box-shadow:0 10px 30px #000}
+@media(max-width:800px){.links{display:none}.grid,.contactgrid,.aboutbox{grid-template-columns:1fr}.points{grid-template-columns:1fr}.hero{padding-top:110px}section{padding:58px 17px}}
+</style>
+</head>
+<body>
+<nav><div class="nav">
+<a class="brand" href="#home"><img src="logo.jpg" alt="Shivshambho logo">SHIVSHAMBHO FATAKA MART</a>
+<div class="links"><a href="#home">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#safety">Safety</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero" id="home">
+<div class="hero-inner">
+<img class="logo" src="logo.jpg" alt="Shivshambho Fataka Mart Logo">
+<div class="badge">🎆 QUALITY FIREWORKS AT BEST PRICES 🎆</div>
+<h1>Shivshambho<br>Fataka Mart</h1>
+<h2>शिवशंभो फटाका मार्ट</h2>
+<p>तुमच्या प्रत्येक सणाची रोषणाई अधिक खास करण्यासाठी विविध प्रकारच्या फटाक्यांचा आकर्षक संग्रह.</p>
+<a class="btn primary" href="#products">🎇 Products पाहा</a>
+<a class="btn outline" href="tel:+919309480722">📞 Call Now</a>
+</div>
+</header>
+
+<section id="products">
+<div class="container">
+<div class="title"><h2>🎆 Our Collection</h2><p>Celebration साठी विविध categories</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🎆</div><h3>Sky Shots</h3><p>आकाशात सुंदर प्रकाश आणि रंगांची आतषबाजी.</p></div>
+<div class="card"><div class="icon">🧨</div><h3>Crackers</h3><p>उत्सवासाठी विविध प्रकारचे फटाके.</p></div>
+<div class="card"><div class="icon">✨</div><h3>Phuljhari</h3><p>आकर्षक फुलझडी collection.</p></div>
+<div class="card"><div class="icon">🌸</div><h3>Flower Pots</h3><p>सुंदर प्रकाश देणारे flower pots.</p></div>
+<div class="card"><div class="icon">🌀</div><h3>Chakri</h3><p>रंगीबेरंगी chakri collection.</p></div>
+<div class="card"><div class="icon">🎁</div><h3>Festival Combos</h3><p>सणासाठी निवडक products चे combo options.</p></div>
+</div>
+</div>
+</section>
+
+<section class="about" id="about">
+<div class="container aboutbox">
+<div>
+<h2>आमच्याबद्दल</h2>
+<p><b>Shivshambho Fataka Mart</b> — Shikrapur, Talegaon Road.</p>
+<p>उत्सव आणि आनंदाच्या क्षणांसाठी फटाक्यांचा विविध collection. Quality, customer service आणि सुरक्षित वापराला महत्त्व.</p>
+<div class="points">
+<div class="point">⭐ Quality Products</div><div class="point">🤝 Customer Service</div>
+<div class="point">🎁 Festival Collection</div><div class="point">🛡️ Safety First</div>
+</div>
+</div>
+<div class="card"><div style="font-size:85px">🎆</div><h3>Celebrate With Joy!</h3><p>तुमचा प्रत्येक सण आनंदाने आणि जबाबदारीने साजरा करा.</p></div>
+</div>
+</section>
+
+<section id="safety">
+<div class="container">
+<div class="title"><h2>🛡️ Safety First</h2><p>फटाके वापरताना नेहमी product instructions आणि स्थानिक नियम पाळा.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">🧑‍🚒</div><h3>Adult Supervision</h3><p>लहान मुलांनी फटाके वापरताना मोठ्यांची देखरेख असावी.</p></div>
+<div class="card"><div class="icon">💧</div><h3>Keep Safety Equipment</h3><p>आपत्कालीन परिस्थितीसाठी पाणी किंवा योग्य fire safety साधन जवळ ठेवा.</p></div>
+<div class="card"><div class="icon">📦</div><h3>Read Instructions</h3><p>प्रत्येक product वरील वापराच्या सूचना काळजीपूर्वक वाचा.</p></div>
+</div>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="container">
+<div class="title"><h2>📍 Contact Shivshambho</h2><p>आमच्याशी थेट संपर्क करा</p></div>
+<div class="contactgrid">
+<div class="contactbox"><div class="big">📍</div><h3>Address</h3><p class="address">Shikrapur,<br>Talegaon Road,<br>Maharashtra, India</p></div>
+<div class="contactbox"><div class="big">📞</div><h3>Call Us</h3><p>9309480722</p><a class="btn primary" href="tel:+919309480722">Call Now</a></div>
+<div class="contactbox"><div class="big">💬</div><h3>WhatsApp</h3><p>9309480722</p><a class="btn primary" href="https://wa.me/919309480722" target="_blank">WhatsApp Now</a></div>
+</div>
+<div class="map"><h3 style="color:#ffd21a;margin-bottom:7px">📍 Visit Us</h3><p>Shikrapur, Talegaon Road</p>
+<a class="btn outline" target="_blank" href="https://www.google.com/maps/search/?api=1&query=Shikrapur%2C%20Talegaon%20Road">Open in Google Maps</a></div>
+</div>
+</section>
+
+<footer>© 2026 Shivshambho Fataka Mart • Quality Fireworks at Best Prices</footer>
+<a class="whatsapp" href="https://wa.me/919309480722" target="_blank">💬 WhatsApp</a>
+</body>
+</html>
